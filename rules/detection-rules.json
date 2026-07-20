@@ -61,7 +61,8 @@
       "^https:\\/\\/github\\.com(/.*)?$",
       "^https:\\/\\/[^/]*\\.github\\.com(/.*)?$",
       "^https:\\/\\/[^/]*\\.github\\.io(/.*)?$",
-      "^https:\\/\\/[^/]*\\.amazonaws\\.com(/.*)?$"
+      "^https:\\/\\/[^/]*\\.amazonaws\\.com(/.*)?$",
+      "^https:\\/\\/[^/]*\\.fox\\.com(/.*)?$"
     ],
     "context_indicators": {
       "description": "Additional context that indicates legitimate discussion vs phishing",
