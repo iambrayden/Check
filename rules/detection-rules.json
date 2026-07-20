@@ -60,7 +60,8 @@
       "^https:\\/\\/(?:[^/]*\\.)?zoom\\.us(/.*)?$",
       "^https:\\/\\/github\\.com(/.*)?$",
       "^https:\\/\\/[^/]*\\.github\\.com(/.*)?$",
-      "^https:\\/\\/[^/]*\\.github\\.io(/.*)?$"
+      "^https:\\/\\/[^/]*\\.github\\.io(/.*)?$",
+      "^https:\\/\\/[^/]*\\.amazonaws\\.com(/.*)?$"
     ],
     "context_indicators": {
       "description": "Additional context that indicates legitimate discussion vs phishing",
@@ -2011,7 +2012,7 @@
   "domain_squatting": {
     "description": "Domain squatting detection configuration to protect against typosquatting, homoglyphs, and combosquatting attacks",
     "action": "block",
-    "deviation_threshold": 2,
+    "deviation_threshold": 4,
     "algorithms": {
       "levenshtein": true,
       "homoglyph": true,
