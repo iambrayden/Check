@@ -63,7 +63,7 @@
       "^https:\\/\\/[^/]*\\.github\\.io(/.*)?$",
       "^https:\\/\\/[^/]*\\.amazonaws\\.com(/.*)?$",
       "^https:\\/\\/[^/]*\\.fox\\.com(/.*)?$",
-      "^https:\\/\\/googleadservices\\.com(/.*)?$"
+      "^https:\\/\\/(?:[^/]*\\.)?googleadservices\\.com(/.*)?$"
     ],
     "context_indicators": {
       "description": "Additional context that indicates legitimate discussion vs phishing",
